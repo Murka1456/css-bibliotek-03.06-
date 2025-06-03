@@ -1,4 +1,18 @@
 /* GENERAL */
+:root {
+  /* alt HTML-  farge variable*/
+  --primaryColor:green;
+  --secondaryColor:yellow;
+  --accentColor:purple;
+  /*Størrelse varia<ble*/
+--smallSpace: 8px;
+--medieSpace: 16px;
+--largeSpase: 24px;
+gap: 100px;
+}
+
+
+
 .fiftyFifty {
   max-width: 50%;
 }
@@ -23,6 +37,7 @@ header {/*
   display: flex;
   align-items: center;
   justify-content: space-between;*/
+  background-color: var(--primaryColor);
 }
 
 .navList {
@@ -74,3 +89,6 @@ header {/*
 }
 
 /* FOOTER */
+footer{
+  background-color: var(--primaryColor);
+}
