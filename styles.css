@@ -6,6 +6,8 @@
   --accentColor:purple;
   --haedingColor:orange;
   --texColor: pink;
+  --lightBackground:white;
+  --darckBackgraund: black;
   /*Størrelse varia<ble*/
 --smallSpace: 8px;
 --medieSpace: 16px;
@@ -17,8 +19,19 @@ gap: 100px;
 --fontParagraf: "Verdana";
 --fontSize: 18px;
 }
+body{
+  background-color: var(--darckBackgraund);
+}
 
-
+h1,h2,h3,h4{
+  color:var(--haedingColor);
+}
+p,li{
+  color:orange;
+}
+a{
+  color:textColor;
+}
 
 .fiftyFifty {
   max-width: 50%;
