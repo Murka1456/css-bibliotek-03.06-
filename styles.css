@@ -1,38 +1,49 @@
 /* GENERAL */
-img {
+.fiftyFifty {
   max-width: 50%;
 }
 
-section {
+.fullScreen {
   min-height: 100vh;
+}
+.flexTrueCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexSpacebetween {
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+
 }
 
 /* HEADER */
-header {
+/*header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+}*/
 
 .navList {
-  display: flex;
+  /*display: flex;
   align-items: center;
   gap: 20px;
-  list-style: none;
+  list-style: none;*/
 }
 
 /* MAIN */
 .sectionHero {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .heroIntro {
-  display: flex;
+ /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 @media (max-width: 426px) {
@@ -46,9 +57,9 @@ header {
 }
 
 .sectionProjects {
-  display: flex;
+ /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .projectCard {
